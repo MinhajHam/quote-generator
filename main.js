@@ -73,4 +73,13 @@ const quotes = [{
 }, {
     quote: `“People don't realize how a man's whole life can be changed by one book.” `,
     person: ` Malclom X`
-}]
+}, ];
+
+ btn.addEventListener('click', function(){
+
+    let random = Math.floor(Math.random() * quotes.length);
+
+    quote.innerText = quotes[random].quote;
+    person.innerText = quotes[random].person;
+
+ })
