@@ -75,6 +75,8 @@ const quotes = [{
     person: ` Malclom X`
 }, ];
 
+
+
  btn.addEventListener('click', function(){
 
     let random = Math.floor(Math.random() * quotes.length);
