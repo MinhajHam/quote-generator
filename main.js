@@ -133,7 +133,7 @@ const quotes = [
   },
 ];
 
-btn.addEventListener("click", function () {
+newQuote.addEventListener("click", function () {
   let random = Math.floor(Math.random() * quotes.length);
 
   quote.innerText = quotes[random].quote;
